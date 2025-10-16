@@ -1,0 +1,5 @@
+Assignments
+
+- Add a new column IsDelayed, Yes or No (10 days)
+- Create column to show order year
+- Add line chart showing DeliveryDays (dates)
