@@ -1,0 +1,79 @@
+[
+    {
+        "OrderID": 1001,
+        "CustomerName": "Rajesh",
+        "FirstName": "Rajesh",
+        "LastName": "Kumar",
+        "Item": "Mobile",
+        "CostPrice": 12000,
+        "SellingPrice": 14500,
+        "Quantity": 2,
+        "OrderDate": "04-05-2025",
+        "DeliveryDate": "04-08-2025",
+        "City": "Mumbai"
+    },
+    {
+        "OrderID": 1002,
+        "CustomerName": "Sarita",
+        "FirstName": "Sarita",
+        "LastName": "Singh",
+        "Item": "Laptop",
+        "CostPrice": 40000,
+        "SellingPrice": 55000,
+        "Quantity": 1,
+        "OrderDate": "04-06-2025",
+        "DeliveryDate": "04-09-2025",
+        "City": "Delhi"
+    },
+    {
+        "OrderID": 1003,
+        "CustomerName": "Ritesh",
+        "FirstName": "Ritesh",
+        "LastName": "Sharma",
+        "Item": "Earbuds",
+        "CostPrice": 1200,
+        "SellingPrice": 1999,
+        "Quantity": 3,
+        "OrderDate": "04-06-2025",
+        "DeliveryDate": "04-09-2025",
+        "City": "Pune"
+    },
+    {
+        "OrderID": 1004,
+        "CustomerName": "Nikita",
+        "FirstName": "Nikita",
+        "LastName": "Mehta",
+        "Item": "Tablet",
+        "CostPrice": 15000,
+        "SellingPrice": 18999,
+        "Quantity": 1,
+        "OrderDate": "04-07-2025",
+        "DeliveryDate": "04-10-2025",
+        "City": "Bangalore"
+    },
+    {
+        "OrderID": 1005,
+        "CustomerName": "Suresh",
+        "FirstName": "Suresh",
+        "LastName": "Iyer",
+        "Item": "Keyboard",
+        "CostPrice": 500,
+        "SellingPrice": 799,
+        "Quantity": 5,
+        "OrderDate": "04-08-2025",
+        "DeliveryDate": "04-11-2025",
+        "City": "Chennai"
+    },
+    {
+        "OrderID": 1006,
+        "CustomerName": "Anita",
+        "FirstName": "Anita",
+        "LastName": "Patil",
+        "CostPrice": 7000,
+        "SellingPrice": 8500,
+        "Quantity": 2,
+        "OrderDate": "04-08-2025",
+        "DeliveryDate": "14-13-2025",
+        "City": "Ahmedabad"
+    }
+]
