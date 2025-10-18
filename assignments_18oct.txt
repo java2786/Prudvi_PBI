@@ -1,0 +1,5 @@
+- Add a measure AvgQuantityPerOrder = AVERAGE of Quantity
+- Create a bar chart of Country vs TotalSales
+- Create a line chart of orderDate vs TotalProfit
+- Add a KPI visual with TotalProfit and a target of ₹50000
+- Create a matrix visual with City on rows and TotalSales as value
