@@ -1,0 +1,37 @@
+High value orders: > 5000,,,,,,,,,,,,
+Order_ID,Date,Salesperson,Customer_Name,City,State,Spice_Name,Category,Quantity_KG,Price_Per_KG,Total_Amount,Cost_Per_KG,Profit
+MM008,45712,Priya Patel,Golden Spoon,Mumbai,Maharashtra,Turmeric Powder,Ground Spices,35,180,6300,120,2100
+MM010,45712,Amit Kumar,Marathi Mandir,Pune,Maharashtra,Red Chili Powder,Ground Spices,28,220,6160,150,1960
+MM014,45712,0,Spicy Affairs,Pune,Maharashtra,Black Pepper,Whole Spices,7,800,5600,600,1400
+MM016,45740,Priya Patel,Aurangabad Eats,Aurangabad,Maharashtra,Turmeric Powder,Ground Spices,40,180,7200,120,2400
+MM017,45740,Ramesh Gupta,Kolhapur Kitchen,Kolhapur,Maharashtra,Kolhapuri Masala,Spice Blends,15,350,5250,220,1950
+MM020,45740,Priya Patel,Mumbai Central,Mumbai,Maharashtra,Chat Masala,Spice Blends,20,280,5600,180,2000
+MM024,45771,Priya Patel,Thane Tiffin,Thane,Maharashtra,Sambhar Masala,Spice Blends,18,320,5760,200,2160
+MM025,45771,Ramesh Gupta,Sangli Sweets,Sangli,Maharashtra,Turmeric Powder,Ground Spices,30,180,5400,120,1800
+MM026,45771,Amit Kumar,Satara Snacks,Satara,Maharashtra,Red Chili Powder,Ground Spices,26,220,5720,150,1820
+MM027,45771,Sunita Singh,Ahmednagar Appetite,Ahmednagar,Maharashtra,Cumin Seeds,Whole Spices,35,160,5600,110,1750
+MM030,45801,Amit Kumar,Akola Appetite,Akola,Maharashtra,Garam Masala,Spice Blends,14,450,6300,300,2100
+MM034,45801,Amit Kumar,Washim Wok,Washim,Maharashtra,Turmeric Powder,Ground Spices,28,180,5040,120,1680
+MM035,45801,Sunita Singh,Hingoli Kitchen,Hingoli,Maharashtra,Red Chili Powder,Ground Spices,24,220,5280,150,1680
+MM047,45862,Sunita Singh,Thane Taste,Thane,Maharashtra,Chicken Masala,Spice Blends,17,360,6120,230,2210
+MM048,45862,Priya Patel,Mumbai Modern,Mumbai,Maharashtra,Kitchen King Masala,Spice Blends,21,320,6720,200,2520
+MM050,45862,Amit Kumar,Final Order Cafe,Mumbai,Maharashtra,Mixed Spice Powder,Spice Blends,25,240,6000,160,2000
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Mumbai Orders Only,,,,,,,,,,,,
+MM001,45681,Priya Patel,Taj Restaurant,Mumbai,Maharashtra,Turmeric Powder,Ground Spices,25,180,4500,120,1500
+MM003,45681,Sunita Singh,Royal Kitchen,Mumbai,Maharashtra,Garam Masala,Spice Blends,10,450,4500,300,1500
+MM005,45681,Ramesh Gupta,Bombay Bites,Mumbai,Maharashtra,Coriander Powder,Ground Spices,20,140,2800,95,900
+MM008,45712,Priya Patel,Golden Spoon,Mumbai,Maharashtra,Turmeric Powder,Ground Spices,35,180,6300,120,2100
+MM012,45712,Priya Patel,Mumbai Masala,Mumbai,Maharashtra,Garam Masala,Spice Blends,8,450,3600,300,1200
+MM015,45712,Sunita Singh,Royal Kitchen,Mumbai,Maharashtra,Cinnamon Sticks,Whole Spices,3,1200,3600,900,900
+MM020,45740,Priya Patel,Mumbai Central,Mumbai,Maharashtra,Chat Masala,Spice Blends,20,280,5600,180,2000
+MM042,45832,Amit Kumar,Mumbai Magic,Mumbai,Maharashtra,Mace,Whole Spices,1,2500,2500,2000,500
+MM048,45862,Priya Patel,Mumbai Modern,Mumbai,Maharashtra,Kitchen King Masala,Spice Blends,21,320,6720,200,2520
+MM050,45862,Amit Kumar,Final Order Cafe,Mumbai,Maharashtra,Mixed Spice Powder,Spice Blends,25,240,6000,160,2000
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+SORT,,,,,,,,,,,,
