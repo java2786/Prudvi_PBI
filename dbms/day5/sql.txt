@@ -1,0 +1,240 @@
+Database create  
+Table create  
+Data insert  
+Show data  
+  
+Query - Category  
+DDL - table structure  
+DML - data in table  
+DQL - read  
+  
+DD  
+Students  
+	- name  
+	- marks  
+	- dob  
+	- class  
+	- subject  
+  
+D  
+Name: Ramesh, Marks: 85%, Dob: 23Jun2012, Class: 9A, Subject: Math  
+  
+  
+Create table  
+=> create table Students(  
+	name varchar(30),  
+	email varchar(30) unique not null,  
+	marks int default 50,  
+	dob date,  
+	class varchar(4),  
+	subject varchar(10)  
+);  
+  
+Insert data  
+=> insert into Students values(‘Ramesh’, ‘8A’, 78, ’2017-07-15’, ‘Physics’); - invalid  
+=> insert into Students values('Ramesh', 78, '2017-07-15', '8A', 'Physics’); - valid  
+=> insert into Students(name, class, marks, dob, subject) values('Ramesh', '8A', 78, '2017-07-15', 'Physics');  
+=> insert into Students(name, marks, subject) values(‘Mahesh’, 71, ‘Math’);  
+  
+  
+  
+=> alter table Students add column email varchar(30);  
+  
+=> insert into Students(name, marks, email) values(‘Mukesh Kumar’, 93, ‘mukesh@gmail.com’);  
+=> insert into Students(name, marks, email) values(‘Mukesh Mittal’, 82, ‘mukesh@gmail.com’);  
+  
+  
+  
+  
+14Jun2025  
+————————  
+  
+Create table  
+=> create table Students(  
+	name varchar(30),  
+	phone varchar(20) unique not null,   
+	email varchar(30) unique not null,  
+	marks int default 50,  
+	dob date,  
+	class varchar(4),  
+	subject varchar(10),  
+	roll int primary key auto_increment  
+);  
+  
+Drop table Students;  
+Desc Students;  
+  
+Insert into Students(roll, email, phone) values(101,’ramesh@gmail.com’, ‘9879879876’ );  
+  
+Insert into Students(roll, email, phone) values(102,’mukesh@gmail.com’, ‘2879879876’ );  
+Insert into Students(roll, email, phone) values(1001,’dinesh@gmail.com’, ‘9839879876’ );  
+  
+Insert into Students(roll, email, phone) values  
+(1003,'rajesh@gmail.com', '1839879876' ),  
+(1004,'ramesh@gmail.com', '9239879876' ),  
+(1005,'kamlesh@gmail.com', '9833879876' ),  
+(1006,'ganesh@gmail.com', '9839849876' ),  
+(1007,'gukesh@gmail.com', '9839879576' );  
+  
+  
+Insert into Students(roll, email, phone) values(100,'ram@gmail.com', '983987987' );  
+Insert into Students(roll, email, phone) values(101,'shyam@gmail.com', '9983987987' );  
+  
+  
+55  
+102  
+1001  
+555  
+500 - 549  
+600-699  
+  
+  
+15000 =>   
+  
+What is new id value?  
+  
+  
+  
+Insert into Students(email, phone) values('ramesh@gmail.com', ‘2839879876' )  
+  
+  
+Create table  
+=> create table Students(  
+	roll int primary key auto_increment,  
+	name varchar(30),  
+	marks int,  
+	subject1 varchar(10),  
+	subject2 varchar(10),  
+	subject3 varchar(10)  
+);  
+  
+Insert into Students(name, subject1, subject2) values(‘Ramesh’, ‘Math’, ‘English’);  
+Insert into Students(name, subject1, subject2, subject3) values(‘Rajesh’, ‘Physics’, ‘Math’, ‘English’);  
+  
+  
+  
+  
+======================= 16 Jun 2025  
+  
+Drop table Customers;  
+Drop table Orders;  
+  
+  
+=> Create table Customers(  
+	id int primary key auto_increment,  
+	name varchar(20),  
+	city varchar(20)   
+);  
+  
+=> Create table Orders(  
+	customerId int,  
+	product_name varchar(20),  
+	quantity int,  
+	foreign key(customerId) references Customers(id)  
+);  
+  
+  
+=> insert into Customers(name, city) values(‘Ramesh’, ‘pune’);  
+  
+=> insert into Orders(customerId, product_name, quantity) values(123, ‘mobile’, 2);  
+  
+  
+  
+=> List customer’s name who are from Pune city  
+  
+=> select * from Customers where city = 'pune';  
+=> select name from Customers where city = 'pune';  
+  
+=> Show customer name who purchased shirt => JOIN, nested query, subquery, query in query  
+=> select customerId from Orders where product_name = 'shirt';  
+  
+=> select name from Customers where id = 1;  
+=> select name from Customers where id in (1,2);  
+  
+=> select name from Customers where id = (select customerId from Orders where product_name = 'shirt');  
+  
+  
+=> select name from Customers where id in (select customerId from Orders where product_name = 'shirt');  
+  
+  
+=> CRUD  
+=> select * from Customers;  
+=> update Customers set city='delhi' where name='Mukesh';  
+  
+  
+=============  
+  
+18Jun2025  
+  
+Student table  
+	- name, id  
+	ramesh, 101  
+	mahesh, 102  
+	suresh, 103,  
+	ramesh, 104  
+  
+Subject table  
+	- name, id  
+	math, 1  
+	english, 2  
+  
+Scores table  
+	-   
+	101, 1, 94  
+	101, 2, 91  
+	101, hindi, 89 -> invalid  
+	101, 1, 89 -> invalid  
+	102, 2, 78  
+	dinesh, 2, 77 -> invalid  
+  
+  
+  
+create student table   
+=> create table Students(  
+	roll int primary key auto_increment,  
+	name varchar(20)  
+);  
+=> insert into Students(name) values('Ramesh'), ('Mahesh'), ('Suresh'), ('Mukesh');  
+  
+create subject table  
+=> create table Subjects(  
+	id int primary key auto_increment,  
+	name varchar(20)  
+);  
+=> insert into Subjects(name) values('Hindi'), ('Math');  
+  
+  
+drop table Scores;  
+create scores table  
+=> create table Scores(  
+	marks int,  
+	student_id int,  
+	sub_id int,  
+	foreign key(student_id) references Students(roll),  
+	foreign key(sub_id) references Subjects(id),  
+	primary key(student_id, sub_id)  
+);  
+  
+=> insert into Scores(marks, student_id, sub_id) values  
+(78, 3, 1),  
+(88, 2, 2),  
+(99, 4, 1);  
+  
+=> insert into Scores(marks, student_id, sub_id) values  
+(91, 4, 1);  
+  
+=> insert into Scores(marks, student_id, sub_id) values  
+(92, 4, 2);  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

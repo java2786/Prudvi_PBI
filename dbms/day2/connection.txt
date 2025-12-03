@@ -1,0 +1,42 @@
+open cmd/terminal  
+  
+Check if mysql is installed  
+$ mysql --version  
+  
+Create connection with mysql server  
+$ mysql --host localhost --port 3306 -u root -proot  
+$ mysql -u root -proot  
+  
+Show available databases  
+$ show databases;  
+  
+create new database  
+$ create database tutorial;  
+  
+Switch to tutorial database  
+$ use tutorial;  
+  
+Show current database  
+$ select database();  
+  
+Show table list  
+$ show tables;  
+  
+Create table product  
+$ create table product(  
+    name varchar(30),  
+    price int,  
+    manufacturer varchar(50),  
+    release_date date,  
+    quantity int  
+);  
+  
+Describe table structure  
+$ desc product;  
+  
+Save record into table   
+$ insert into product values('mobile',35000,'one plus','2025-06-12', 45);  
+  
+Read data from table   
+$ select name, price from product;  
+$ select * from product;  
