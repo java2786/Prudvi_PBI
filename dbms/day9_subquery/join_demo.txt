@@ -1,0 +1,25 @@
+
+select tableA.col, tableB.col from tableA
+? join tableB on tableA.col = tableB.col
+
+select a.col, b.col from tableA a
+? join tableB b on a.col = b.col
+
+select s.RollNo, s.Name, s.Class, m.Subject, m.Marks from STUDENTS s
+	left join MARKS m on s.RollNo = m.RollNo
+where m.Marks is NULL;
+
+select s.RollNo, s.Name, s.Class, m.Subject, m.Marks from STUDENTS s
+	left join MARKS m on s.RollNo = m.RollNo
+where m.Marks is not NULL;
+
+
+
+select s.RollNo, s.Name, s.Class, m.Subject, m.Marks from STUDENTS s
+	inner join MARKS m on s.RollNo = m.RollNo;
+
+
+select s.RollNo, s.Name, s.Class, m.Subject, m.Marks, m.RollNo as mr from STUDENTS s
+	right join MARKS m on s.RollNo = m.RollNo
+where s.RollNo is not NULL
+;
