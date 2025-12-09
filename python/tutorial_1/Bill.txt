@@ -1,0 +1,18 @@
+Welcome to Sohan's Restaurant
+Our menu
+1. Dosa - Rs 50
+2. Idli - Rs 25
+3. ColdDrink - Rs 50
+Dosa Quantity: 2
+Idli Quantity: 4
+ColdDrink Quantity: 3
+
+
+===========Mohan's Bill=============
+Dosa: 2x Rs 50 = 100
+Idli: 4x Rs 25 = 100
+ColdDrink: 3x Rs 50 = 150
+-------------------------------------
+Total bill: Rs 350
+-------------------------------------
+Thank you

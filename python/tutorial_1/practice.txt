@@ -1,0 +1,2 @@
+Create calculator with user inputs
+    - sum, mul, div, sub
