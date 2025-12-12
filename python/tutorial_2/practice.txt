@@ -1,0 +1,15 @@
+store multiple marks
+- average
+- sum 
+- min 
+- max 
+
+
+#. find total of each digit in a number
+    - input 1234
+    - output 10
+
+#. find reverse of a number
+    - input 1234
+    - output 4321
+
