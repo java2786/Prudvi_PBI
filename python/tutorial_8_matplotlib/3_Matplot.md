@@ -25,6 +25,11 @@ You analyzed Flipkart sales data using Pandas. Now you need to show your manager
 ### Installation    
     
 ```python    
+python3 -m venv myenv
+# windows
+myenv/Scripts/activate
+# mac/linux
+source myenv/bin/activate
 pip install matplotlib    
 ```    
     
